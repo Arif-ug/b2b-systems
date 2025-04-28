@@ -122,6 +122,33 @@ export default function FeedbackForm() {
       <div className="md:w-1/2">
         <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">What People Say</h2>
         <div className="max-h-[360px] overflow-y-auto space-y-6 pr-2 scrollbar-thin scrollbar-thumb-orange-400 scrollbar-track-transparent">
+          {/* {feedbacks.map((feedback, index) => (
+            <div key={index} className="bg-white dark:bg-gray-800 shadow-lg rounded-2xl p-6 flex items-center gap-6">
+              {feedback.imageUrl ? (
+                <img
+                  src={feedback.imageUrl}
+                  alt={feedback.name}
+                  className="w-24 h-24 rounded-full border-4 border-orange-500 object-cover"
+                />
+              ) : (
+                <div className="w-24 h-24 rounded-full border-4 border-gray-300 flex items-center justify-center text-gray-500">
+                  No Image
+                </div>
+              )}
+              <div>
+                <h3 className="text-lg font-semibold text-gray-800 dark:text-white">{feedback.name}</h3>
+                <p className="text-sm text-gray-500 dark:text-gray-300">{feedback.designation}</p>
+                <p className="mt-2 text-gray-700 dark:text-gray-200 relative">
+                  <span className="text-yellow-400 text-3xl absolute -left-4 -top-2">“</span>
+                  {feedback.review}
+                  <span className="text-yellow-400 text-3xl absolute -bottom-2">”</span>
+                </p>
+                <div className="flex items-center text-yellow-400 mt-1">
+                  {renderStars(feedback.rating)}
+                </div>
+              </div>
+            </div>
+          ))} */}
           {feedbacks?.map((feedback, index) => (
             feedback && (
               <div key={index} className="bg-white dark:bg-gray-800 shadow-lg rounded-2xl p-6 flex items-center gap-6">
@@ -151,20 +178,7 @@ export default function FeedbackForm() {
               </div>
             )
           ))}
-              <div>
-                <h3 className="text-lg font-semibold text-gray-800 dark:text-white">{feedback.name}</h3>
-                <p className="text-sm text-gray-500 dark:text-gray-300">{feedback.designation}</p>
-                 <p className="mt-2 text-gray-700 dark:text-gray-200 relative">
-                  <span className="text-yellow-400 text-3xl absolute -left-4 -top-2">“</span>
-                  {feedback.review}
-                  <span className="text-yellow-400 text-3xl absolute -bottom-2">”</span>
-                </p>
-                <div className="flex items-center text-yellow-400 mt-1">
-                  {renderStars(feedback.rating)}
-                </div>
-              </div>
-            </div>
-          ))}
+
         </div>
       </div>
 
@@ -201,7 +215,7 @@ export default function FeedbackForm() {
             required
           />
 
-          {uploadingImage && <p className="text-sm text-blue-500">Uploading image...</p>}
+          {/* {uploadingImage && <p className="text-sm text-blue-500">Uploading image...</p>}
           {imagePreview && (
             <div className="mt-2">
               <img
@@ -210,7 +224,7 @@ export default function FeedbackForm() {
                 className="w-32 h-32 object-cover rounded-md border"
               />
             </div>
-          )}
+          )} */}
 
           <textarea
             name="review"
