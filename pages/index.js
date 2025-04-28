@@ -81,7 +81,7 @@ export default function Home() {
               <p className="text-gray-800 lg:text-3xl font-semibold text-2xl lg:text-justify text-start  dark:text-gray-300">
                 &ldquo;Leading ICT Infrastructure Solutions Provider in North Eastern India.&#8221;
               </p>
-              <p className="mt-3 text-gray-600 text-justify dark:text-gray-600">
+              <p className="mt-3 text-gray-600 lg:text-justify text-start dark:text-gray-600">
                 We are a leading solution provider of ICT infrastructure in the field of Hardware Specifications,Networking,Video Conferencing, EPABX, Electrification,AMC(Annual Maintainence Contract),FMS(Facility Management Services),Onsite Manpower deployment as per End user requirement, Inhouse Support, Consultancy Services. in North Eastern India. Our inception has been based on constant innovation through leadership, to ensure that our customers are always able to better manage their operational costs, productivity and time management, and keep-up with today's fast paced business environment.
               </p>
             </div>
