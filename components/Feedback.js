@@ -138,14 +138,14 @@ export default function FeedbackForm() {
               <div>
                 <h3 className="text-lg font-semibold text-gray-800 dark:text-white">{feedback.name}</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-300">{feedback.designation}</p>
-                <div className="flex items-center text-yellow-400 mt-1">
-                  {renderStars(feedback.rating)}
-                </div>
-                <p className="mt-2 text-gray-700 dark:text-gray-200 relative">
+                 <p className="mt-2 text-gray-700 dark:text-gray-200 relative">
                   <span className="text-yellow-400 text-3xl absolute -left-4 -top-2">“</span>
                   {feedback.review}
                   <span className="text-yellow-400 text-3xl absolute -bottom-2">”</span>
                 </p>
+                <div className="flex items-center text-yellow-400 mt-1">
+                  {renderStars(feedback.rating)}
+                </div>
               </div>
             </div>
           ))}
