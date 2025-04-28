@@ -7,143 +7,142 @@ import Case from "/components/CaseStudies";
 
 const Clients = () => {
   const categories = [
-    {
-      title: "Defense & Security",
-      clients: [
-        {
-          name: "Indian Army",
-          image: "/images/indian-army.png",
-          backContent: "Jorhat Engineering College is a premier engineering institute in Assam.",
-        },
-        {
-          name: "Indian Air Force",
-          image: "/images/air-force.png",
-          backContent: "ICM Guwahati offers management education with a focus on cooperatives.",
-        },
-        {
-          name: "Assam Police",
-          image: "/images/assam-police.png",
-          backContent: "IIT Guwahati is a renowned technical institute.",
-        },
-      ],
-    },
-    {
-      title: "Educational Institutions",
-      clients: [
-        {
-          name: "Jorhat Engineering College, Jorhat",
-          image: "/images/jec.jpeg",
-          backContent: "Jorhat Engineering College is a premier engineering institute in Assam.",
-        },
-        {
-          name: "Institute of Co-operative Management, Guwahati",
-          image: "/images/ncct.png",
-          backContent: "ICM Guwahati offers management education with a focus on cooperatives.",
-        },
-        {
-          name: "Indian Institute of Technology, Guwahati",
-          image: "/images/IITG_logo.png",
-          backContent: "IIT Guwahati is a renowned technical institute.",
-        },
-        {
-          name: "National Institute of Technology",
-          image: "/images/NIT.png",
-          backContent: "IIT Guwahati is a renowned technical institute.",
-        },
-        {
-          name: "Indian Institute of Bank Management",
-          image: "/images/iibb.png",
-          backContent: "IIT Guwahati is a renowned technical institute.",
-        },
-        {
-          name: "Assam Engineering College, Guwahati",
-          image: "/images/aek.png",
-          backContent: "IIT Guwahati is a renowned technical institute.",
-        },
-        {
-          name: "Assam Engineering Institute, Guwahati.",
-          image: "/images/aei.png",
-          backContent: "IIT Guwahati is a renowned technical institute.",
-        },
-      ],
-    },
-    {
-      title: "Banking & Finance",
-      clients: [
-        {
-          name: "Indian Overseas Bank, Regional Office, Guwahati",
-          image: "/images/iob.png",
-          backContent: "Indian Overseas Bank is a major public sector bank.",
-        },
-        {
-          name: "Finance Department, Govt. of Assam",
-          image: "/images/Finance Department Assam.png",
-          backContent: "The Finance Department manages the state's finances.",
-        },
-      ],
-    },
-    {
-      title: "Government & Public Sector",
-      clients: [
-        {
-          name: "Employee's Provident Fund Organisation, Guwahati",
-          image: "/images/Emlpoyees provident fund.png",
-          backContent: "EPFO manages provident fund accounts for employees.",
-        },
-        {
-          name: "Guwahati High Court",
-          image: "/images/GHC.png",
-          backContent: "The Guwahati High Court serves Assam and neighboring states.",
-        },
-        {
-          name: "Central Silk Board",
-          image: "/images/Cental Silk Board.png",
-          backContent: "The Central Silk Board promotes silk industry development.",
-        },
-      ],
-    },
-    {
-      title: "Industry & Business",
-      clients: [
-        {
-          name: "Bureau of Indian Standard, Guwahati Branch",
-          image: "/images/Bereaue of india.png",
-          backContent: "BIS sets standards for products and services in India.",
-        },
-        {
-          name: "Khadi and Village Industries Commission, Guwahati",
-          image: "/images/Khadi india.png",
-          backContent: "KVIC promotes khadi and village industries.",
-        },
-        {
-          name: "Rural Electrification Corporation Limited, Guwahati",
-          image: "/images/REC.png",
-          backContent: "REC finances rural electrification projects.",
-        },
-        {
-          name: "Rural Electrification Corporation Limited, Guwahati",
-          image: "/images/neepco.png",
-          backContent: "REC finances rural electrification projects.",
-        },
-      ],
-    },
-    {
-      title: "Telecommunication & IT",
-      clients: [
-        {
-          name: "Bureau of Indian Standard, Guwahati Branch",
-          image: "/images/amtron.png",
-          backContent: "AMTRON is a state-owned IT service provider in Assam.",
-        },
-        {
-          name: "BSNL",
-          image: "/images/bsnl.png",
-          backContent: "BSNL is a Public sector telecom service provider",
-        },
-      ],
-    },
-  ];
-
+  {
+    title: "Defense & Security",
+    clients: [
+      {
+        name: "Indian Army",
+        image: "/images/indian-army.png",
+        backContent: "The Indian Army is the land-based branch and the largest component of the Indian Armed Forces.",
+      },
+      {
+        name: "Indian Air Force",
+        image: "/images/air-force.png",
+        backContent: "The Indian Air Force is the air arm of the Indian Armed Forces, responsible for aerial defense.",
+      },
+      {
+        name: "Assam Police",
+        image: "/images/assam-police.png",
+        backContent: "Assam Police is the law enforcement agency for the state of Assam in India.",
+      },
+    ],
+  },
+  {
+    title: "Educational Institutions",
+    clients: [
+      {
+        name: "Jorhat Engineering College, Jorhat",
+        image: "/images/jec.jpeg",
+        backContent: "Jorhat Engineering College is one of the premier technical institutes in Assam, India.",
+      },
+      {
+        name: "Institute of Co-operative Management, Guwahati",
+        image: "/images/ncct.png",
+        backContent: "ICM Guwahati provides management training and education with a focus on cooperative organizations.",
+      },
+      {
+        name: "Indian Institute of Technology, Guwahati",
+        image: "/images/IITG_logo.png",
+        backContent: "IIT Guwahati is a prestigious institution recognized globally for excellence in engineering and research.",
+      },
+      {
+        name: "National Institute of Technology",
+        image: "/images/NIT.png",
+        backContent: "NITs are premier public technical universities in India known for engineering and technology education.",
+      },
+      {
+        name: "Indian Institute of Bank Management",
+        image: "/images/iibb.png",
+        backContent: "IIBM Guwahati offers advanced training, education, and research in banking and financial services.",
+      },
+      {
+        name: "Assam Engineering College, Guwahati",
+        image: "/images/aek.png",
+        backContent: "Assam Engineering College is one of the oldest engineering colleges in Northeast India, established in 1955.",
+      },
+      {
+        name: "Assam Engineering Institute, Guwahati.",
+        image: "/images/aei.png",
+        backContent: "Assam Engineering Institute offers diploma courses in various branches of engineering and technology.",
+      },
+    ],
+  },
+  {
+    title: "Banking & Finance",
+    clients: [
+      {
+        name: "Indian Overseas Bank, Regional Office, Guwahati",
+        image: "/images/iob.png",
+        backContent: "Indian Overseas Bank is a major public sector bank providing a wide range of banking services.",
+      },
+      {
+        name: "Finance Department, Govt. of Assam",
+        image: "/images/Finance Department Assam.png",
+        backContent: "The Finance Department oversees state budgeting, financial management, and fiscal policies for Assam.",
+      },
+    ],
+  },
+  {
+    title: "Government & Public Sector",
+    clients: [
+      {
+        name: "Employee's Provident Fund Organisation, Guwahati",
+        image: "/images/Emlpoyees provident fund.png",
+        backContent: "EPFO is a government body that manages provident funds and pension schemes for Indian employees.",
+      },
+      {
+        name: "Guwahati High Court",
+        image: "/images/GHC.png",
+        backContent: "The Gauhati High Court has jurisdiction over several northeastern states of India.",
+      },
+      {
+        name: "Central Silk Board",
+        image: "/images/Cental Silk Board.png",
+        backContent: "The Central Silk Board promotes the development of the silk industry in India through research and policy.",
+      },
+    ],
+  },
+  {
+    title: "Industry & Business",
+    clients: [
+      {
+        name: "Bureau of Indian Standard, Guwahati Branch",
+        image: "/images/Bereaue of india.png",
+        backContent: "BIS is the national standard body of India ensuring quality and safety standards across industries.",
+      },
+      {
+        name: "Khadi and Village Industries Commission, Guwahati",
+        image: "/images/Khadi india.png",
+        backContent: "KVIC promotes rural entrepreneurship and the production of khadi and other village industries' products.",
+      },
+      {
+        name: "Rural Electrification Corporation Limited, Guwahati",
+        image: "/images/REC.png",
+        backContent: "REC is a leading public infrastructure finance company in India's power sector.",
+      },
+      {
+        name: "North Eastern Electric Power Corporation Limited (NEEPCO)",
+        image: "/images/neepco.png",
+        backContent: "NEEPCO generates electric power from hydro, natural gas, and renewable energy sources in Northeast India.",
+      },
+    ],
+  },
+  {
+    title: "Telecommunication & IT",
+    clients: [
+      {
+        name: "Assam Electronics Development Corporation Limited (AMTRON)",
+        image: "/images/amtron.png",
+        backContent: "AMTRON is a government-owned corporation driving IT development and e-Governance in Assam.",
+      },
+      {
+        name: "Bharat Sanchar Nigam Limited (BSNL)",
+        image: "/images/bsnl.png",
+        backContent: "BSNL is a government-owned telecommunications service provider offering services across India.",
+      },
+    ],
+  },
+];
   return (
     <div className="flex flex-col min-h-screen">
       <Head>
